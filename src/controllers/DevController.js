@@ -39,4 +39,12 @@ module.exports = {
 
     return response.json(dev);
   },
+
+  async destroy(request, response) {
+    const { dev_id } = request.params;
+
+    await Dev.findByIdAndDelete(dev_id);
+
+    return response.json();
+  },
 };
