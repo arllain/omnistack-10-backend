@@ -22,4 +22,4 @@ $ yarn
 $ yarn dev
 ```
 
-Application development on Omnistack ([Rocketseat](https://rocketseat.com.br/)) Week 10
+Application developed in the Week 10 Omnistack ([Rocketseat](https://rocketseat.com.br/))
